@@ -1,5 +1,7 @@
-import csv
 
-def main(): 
+def main():
+    # array = [] 
     with open("Wordle Answers.txt",'w') as file: 
-        print()
+        lines = file.readlines()
+
+main()
